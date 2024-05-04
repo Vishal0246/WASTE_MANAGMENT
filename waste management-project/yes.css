@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(images/bg2yes);
+}
+.box{
+    width: 40%;
+    border: 2px solid black;
+    margin:auto;
+    margin-top: 150px;
+    background-color: beige;
+}
+#h1{
+    text-align: center;
+    padding-top: 10px;
+}
+#unique{
+    height: 38px;
+    width: 435px;
+    margin-left: 86px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+#p1{
+    margin-left: 81px;
+    padding-top: 23px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#optval{
+    height: 39px;
+    width: 446px;
+    margin-left: 82px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+#p2{
+    margin-left: 80px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+#p3{
+    margin-left: 118px;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+#optval1{
+    position: relative;
+    bottom: 64px;
+    height: 39px;
+    width: 237px;
+    margin-left: 289px;
+    margin-top: 19px;
+    font-weight: bold;
+
+}
+#btn{
+    margin-left: 227px;
+    margin-bottom: 22px;
+    height: 35px;
+    width: 124px;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: deepskyblue;
+}
+#btn:hover{
+    color: white;
+    border-color: aqua;
+    border: 2px solid black;
+}
+
+#pop-up{
+    width: 503px;
+    height: 357px;
+    background-color: bisque;
+    color: black;
+    position: relative;
+    bottom: 377px;
+    /* display: none; */
+    border-radius: 8px;
+    margin-left: 32%;
+    display: none;
+
+    
+}
+#p5{
+    font-size: 47px;
+    font-family: cursive;
+    margin-left: 4px;
+}
+
+.pop-up button{
+    margin-left: 40%;
+    width: 132px;
+    height: 44px;
+    margin-top: 30px;
+    font-size: 34px;
+    border: 2px solid red;
+    border-radius: 8px;
+    
+}
+a{
+    text-decoration: none;
+}
+

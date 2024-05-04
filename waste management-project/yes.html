@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes page</title>
+    <link rel="stylesheet" href="yes.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("#pop-up").fadeIn();
+
+            })
+        })
+
+
+    </script>
+</head>
+
+<body>
+   
+        <div class="box">
+            <div class="container">
+                <h1 id="h1">WELCOME!!!</h1>
+            </div>
+
+            <input type="number" placeholder="Enter Your Unique Code" id="unique">
+            <div class="choose">
+                <p id="p1">Which Type Of Garbage Which You Want To Dumb:
+                <div id="seletion">
+
+                    <select name="cars" id="optval">
+                        <option>Select Waste Type</option>
+                        <option value="bio">Biodegradeble</option>
+                        <option value="non-bio">Non-biodegradble</option>
+                    </select>
+                </div>
+                </p>
+            </div>
+
+            <div class="Qty">
+                <div class="div1">
+                    <p id="p2">
+                        Quantity Of Garbage:</p>
+                </div>
+                <div class="div2">
+                    <p id="p3">(In Bucket)</p>
+                </div>
+                <div class="div3">
+                    <select name="cars" id="optval1">
+                        <option>Select</option>
+                        <option value="bio">1</option>
+                        <option value="non-bio">2</option>
+                        <option value="non-bio">More then 2</option>
+                    </select>
+                </div>
+
+
+
+            </div>
+            <button id="btn">Submit</button>
+        </div>
+  
+
+    <div class="pop-up" id="pop-up">
+        <p id="p5">Your Request has Been Accepted.We Will Collect Your Garbage At Given Time</p>
+        <button id="pop-button"><a href="/index.html">OK</a></button>
+    </div>
+
+
+</body>
+
+</html>
